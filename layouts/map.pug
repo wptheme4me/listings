@@ -1,0 +1,17 @@
+extends ./default.pug
+
+block append head
+ script(src=siteurl + "js/google-map.js")
+ 
+ 
+
+block main
+ .r
+  .c0.center
+    h1 Google Map API
+    #map
+
+
+block footer
+ include ./tools/google-map.pug
+ 
